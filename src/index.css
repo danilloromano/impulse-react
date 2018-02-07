@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #FBFBFB !important;
+}
+
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Defalt Page */
+.top-bar {
+  background-color: #2d8728;
+  min-height: 35px;
+  font-size: 13px;
+}
+
+.header{
+  position: absolute;
+  top: 0;
+  z-index: 2000;
+  width: 100%;
+  outline: none !important;
+}
+
+.navWrapper {
+  min-height: 85px;
+}
+
+.menu-bar-wrapper {
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  width: 100%;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  min-height: 85px;
+  position: relative;
+}
+
+.site-logo-title.has-logo {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: visible !important;
+}
+
+.site-logo-title img {
+  max-width: none;
+  display: block;
+  width: auto;
+  max-height: 100%;
+  z-index: 0;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+img{
+  width: 50%;
+  height: auto;
+  vertical-align: middle;
+  border:0px;
+}
+
+.primary-menu {
+  display: inline-block;
+  height: 100%;
+  z-index: 1000;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.heading {
+  font-family: 'Creepster', cursive;
+  background-color: #2D8728 !important;
+}
+
+.menu-link {
+  font-family: 'Creepster', cursive;
+  display: block;
+  height: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+  color: #777;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.menu-link:hover {
+  color: #2D8728 !important;
+}
+
+/* Home */
+.imgLogo {
+  margin-left: 30%;
+}
+
+.urso-home {
+  width: 60%;
+  height: auto;
+  vertical-align: middle;
+  animation: fadein 2s;
+}
+
+ /* users */
+
+ .user-content {
+    position: relative;
+ }
+
+ .mainContent {
+    position: relative;
+    top: 180px;
+ }
+
+ .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+ }
+
+ .tableContent{
+
+ }
+
+ .formContent {
+  margin-bottom: 50px;
+ }
+
+ .inputcustom{
+    height: 50px;
+    border: none;
+    color: #222;
+    padding-top: 20px;
+    border-bottom: 2px solid #2D8728;
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+ }
+
+ .labelCustom {
+  position: relative;
+  text-transform: uppercase;
+  top: 20px;
+  left: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8c8c8c;
+  transition: all .2s ease-in-out;
+ }
+
+ .btn-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+ }
+
+ .btnSave {
+   width: 80px;
+   height: 40px;
+   background-color: #2D8728;
+   color: white;
+   border-radius: 10px;
+   box-shadow: 2px 1px #8c8c8c;
+ }
